@@ -1,42 +1,42 @@
 :root {
-  /* Light Mode Colors */
-  --background-light: #556B2F;
-  --section-bg-light: #F5F5F5;
-  --text-light: #000000;
-  --link-light: #7B4F9D;
-  --button-light: #7B4F9D;
-  --button-hover-light: #432b55;
-  --button-text-light: #FFFFFF;
-  --image-bg-light: #FFFFFF;
-  --border-light: #e1e1e1;
-  --contact-icon-light: #000000;
+/* Light Mode Colors */
+--background-light: #d1dbe4;
+--section-bg-light: #ffffff;
+--text-light: #194a7a;
+--link-light: #476f95;
+--button-light: #476f95;
+--button-hover-light: #194a7a;
+--button-text-light: #ffffff;
+--image-bg-light: #ffffff;
+--border-light: #a3b7ca;
+--contact-icon-light: #194a7a;
 
-  /* Shadow colors */
-  --shadow-color-light: rgba(0, 0, 0, 0.1);
-  --shadow-color-hover-light: rgba(0, 0, 0, 0.15);
+/* Shadow colors */
+--shadow-color-light: rgba(25, 74, 122, 0.15);
+--shadow-color-hover-light: rgba(25, 74, 122, 0.25);
 
-  /* Shadow definitions */
-  --shadow-standard-light: 0 4px 8px var(--shadow-color-light);
-  --shadow-hover-light: 0 10px 20px var(--shadow-color-hover-light);
-  --shadow-top-light: 0 -4px 8px var(--shadow-color-light);
+/* Shadow definitions */
+--shadow-standard-light: 0 4px 8px var(--shadow-color-light);
+--shadow-hover-light: 0 10px 20px var(--shadow-color-hover-light);
+--shadow-top-light: 0 -4px 8px var(--shadow-color-light);
 
-  /* Dark Mode Colors */
-  --background-dark: #2D3339;
-  --section-bg-dark: #38471f;
-  --text-dark: #FFFFFF;
-  --link-dark: #6DABFF;
-  --button-dark: #6DABFF;
-  --button-hover-dark: #004099;
-  --button-text-dark: #FFFFFF;
-  --card-bg-dark: #2D3339;
-  --image-bg-dark: #f2f2f2;
-  --border-dark: #2D3339;
-  --underline-dark: #FFFFFF;
-  --contact-icon-dark: #FFFFFF;
+/* Dark Mode Colors */
+--background-dark: #194a7a;
+--section-bg-dark: #476f95;
+--text-dark: #ffffff;
+--link-dark: #d1dbe4;
+--button-dark: #7593af;
+--button-hover-dark: #a3b7ca;
+--button-text-dark: #194a7a;
+--card-bg-dark: #194a7a;
+--image-bg-dark: #d1dbe4;
+--border-dark: #476f95;
+--underline-dark: #ffffff;
+--contact-icon-dark: #ffffff;
 
-  /* Shadow colors (dark) */
-  --shadow-color-dark: rgba(0, 0, 0, 0.25);
-  --shadow-color-hover-dark: rgba(0, 0, 0, 0.35);
+/* Shadow colors (dark) */
+--shadow-color-dark: rgba(0, 0, 0, 0.35);
+--shadow-color-hover-dark: rgba(0, 0, 0, 0.45);
 
   /* Shadow definitions (dark) */
   --shadow-standard-dark: 0 4px 8px var(--shadow-color-dark);
@@ -63,7 +63,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Times, serif, sans-serif;
   font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.6;
   margin: 0;
@@ -272,7 +272,7 @@ body.dark-mode .theme-icon {
 }
 
 #darkModeBtn {
-  color: #6c757d;
+  color: #041625;
   background-color: transparent;
 }
 
@@ -442,7 +442,7 @@ body.dark-mode .project-image {
 }
 
 .skill-category {
-  background: white;
+  background: rgb(167, 193, 219);
   border-radius: 8px;
   box-shadow: var(--shadow-standard-light);
   padding: 20px;
